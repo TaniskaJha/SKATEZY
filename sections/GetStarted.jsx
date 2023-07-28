@@ -1,6 +1,8 @@
 'use client';
 
+
 import { motion } from 'framer-motion';
+import { Button } from '../components';
 
 import styles from '../styles';
 import { startingFeatures } from '../constants';
@@ -41,6 +43,7 @@ const GetStarted = () => (
             />
           ))}
         </div>
+      <Button>PROCEED TO BOOK </Button>
       </motion.div>
     </motion.div>
   </section>
