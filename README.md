@@ -8,7 +8,7 @@ The website is LIVE on the link : https://skatezy-11.vercel.app
 ## Payment Gateway
 
 Stripe's platform allows businesses to accept payments over the internet securely, making it easier for companies to conduct online transactions and handle financial operations.
-![mainpg](./payment.jpg)
+![mainpg](./payment.png)
 
 
 ## Technologies Used
