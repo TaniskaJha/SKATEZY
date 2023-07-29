@@ -8,6 +8,7 @@ import styles from '../styles';
 import { startingFeatures } from '../constants';
 import { StartSteps, TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import { checkout } from "../checkout"
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -43,7 +44,15 @@ const GetStarted = () => (
             />
           ))}
         </div>
-      <Button>PROCEED TO BOOK </Button>
+        <Button onClick={() => checkout({ // Add the logic to the onClick event
+          lineItems: [
+            {
+              price: "price_1NYxkSSDYOJV6IKyEmBCUsdL",
+              quantity: 1,
+            },
+          ],
+        })}>BUY!</Button>
+
       </motion.div>
     </motion.div>
   </section>

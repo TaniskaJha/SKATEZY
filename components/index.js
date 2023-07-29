@@ -6,6 +6,7 @@ import NewFeatures from './NewFeatures';
 import InsightCard from './InsightCard';
 import Footer from './Footer';
 import Button from './Button';
+import checkout from '../checkout';
 
 export {
   Navbar,
@@ -17,4 +18,5 @@ export {
   InsightCard,
   Footer,
   Button,
+  checkout,
 };
