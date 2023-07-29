@@ -1,7 +1,6 @@
-
+'use client';
 import React from 'react';
 import { checkout } from '../checkout.js'; 
-
 
 const Button = ({ children }) => {
   const buttonStyles = {
@@ -15,15 +14,12 @@ const Button = ({ children }) => {
     transition: 'background-color 0.3s ease-in-out',
   };
 
-  
-
   const handleButtonClick = async () => {
-    
     try {
       await checkout({
         lineItems: [
           {
-            price: "price_1NYxkSSDYOJV6IKyEmBCUsdL",
+            price: 'price_1NYxkSSDYOJV6IKyEmBCUsdL',
             quantity: 1,
           },
         ],
@@ -34,7 +30,7 @@ const Button = ({ children }) => {
   };
 
   return (
-    <button style={buttonStyles} onClick={handleButtonClick}>
+    <button type="button" style={buttonStyles} onClick={handleButtonClick}>
       {children}
     </button>
   );
