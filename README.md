@@ -1,8 +1,15 @@
 # SKATEZY - Skateboard Renting Website
 
+SKATEZY is a skateboard renting website that allows users to rent two kinds of skateboards: longboards and cruisers. The website is built using Next.js and features an integrated payment gateway using Stripe.The website is equipped with latest User Interface and provides a smooth User Experience. 
+The website is LIVE on the link : https://skatezy-11.vercel.app
+
 ![mainpg](./skatezycollage.jpg)
 
-SKATEZY is a skateboard renting website that allows users to rent two kinds of skateboards: longboards and cruisers. The website is built using Next.js and features an integrated payment gateway using Stripe.
+## Payment Gateway
+
+Stripe's platform allows businesses to accept payments over the internet securely, making it easier for companies to conduct online transactions and handle financial operations.
+![mainpg](./payment.jpg)
+
 
 ## Technologies Used
 
