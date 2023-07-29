@@ -47,7 +47,7 @@ const GetStarted = () => (
         <Button onClick={() => checkout({ // Add the logic to the onClick event
           lineItems: [
             {
-              price: "price_1NYxkSSDYOJV6IKyEmBCUsdL",
+              price: "price_1NZDu9SDYOJV6IKy4Hyw05x6",
               quantity: 1,
             },
           ],
