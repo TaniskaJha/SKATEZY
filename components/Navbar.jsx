@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
@@ -16,7 +15,6 @@ const Navbar = () => (
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
-     
       <h2 className="font-extrabold text-[30px] leading-[30.24px] text-white">
         SKATEZY
       </h2>
