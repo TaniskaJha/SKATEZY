@@ -51,7 +51,7 @@ const GetStarted = () => (
               quantity: 1,
             },
           ],
-        })}>BUY!</Button>
+        })}>BOOK!</Button>
 
       </motion.div>
     </motion.div>
