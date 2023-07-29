@@ -7,7 +7,6 @@ import InsightCard from './InsightCard';
 import Footer from './Footer';
 import Button from './Button';
 
-
 export {
   Navbar,
   TitleText,
@@ -18,5 +17,4 @@ export {
   InsightCard,
   Footer,
   Button,
-
 };
