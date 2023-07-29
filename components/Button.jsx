@@ -1,6 +1,5 @@
-'use client';
 import React from 'react';
-import { checkout } from '../checkout.js'; 
+import { checkout } from '../checkout.js';
 
 const Button = ({ children }) => {
   const buttonStyles = {
